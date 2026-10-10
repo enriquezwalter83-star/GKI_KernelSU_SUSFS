@@ -15,6 +15,11 @@ on:
       kernel_version:
         required: true
         type: string
+      kernel_source:
+        description: "Kernel source repository"
+        required: false
+        type: string
+        default: "wild"
       sublevel:
         required: true
         type: string
